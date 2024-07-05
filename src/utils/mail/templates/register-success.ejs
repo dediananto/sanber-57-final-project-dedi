@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Success</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h1 {
+            color: #333333;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            color: #777777;
+            font-size: 12px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .content {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Our Service!</h1>
+        </div>
+        <div class="content">
+            <h1>Registration Successful</h1>
+            <p>Dear <%= username %>,</p>
+            <p>Thank you for registering with us. Your account has been successfully created.</p>
+            <p>You can now enjoy all the features and benefits we offer. If you have any questions, feel free to contact our support team.</p>
+            <a href="#" class="button">Login to Your Account</a>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Our Service. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
