@@ -1,5 +1,5 @@
 # Dev Site
-[http://railway.app](http://railway.app)
+[https://sanber-57-final-project-dedi-production.up.railway.app/api](https://sanber-57-final-project-dedi-production.up.railway.app/api)
 
 # API Endpoints
 
